@@ -1,0 +1,26 @@
+.Spotlight-*/
+.Trashes
+/afs/*
+/automount/*
+/cores/*
+/dev/*
+/Network/*
+/private/tmp/*
+/private/var/run/*
+/private/var/spool/postfix/*
+/private/var/vm/*
+/Previous Systems.localized
+/tmp/*
+/Volumes/*
+/mnt/*
+*/.Trash
+/Users/Ricky/VirtualBox VMs/*
+/Users/Ricky/Downloads/*
+/Users/Ricky/Dropbox/*
+/Users/Ricky/Movies/*
+/Users/Ricky/Documents/Parallels/*
+/Users/Ricky/Music/iTunes/iTunes Media/*
+/Users/Ricky/Music/Amazon MP3/*
+/Users/Jenny/VirtualBox VMs/*
+/Users/Jenny/Downloads/*
+/Users/Jenny/Movies/*
