@@ -9,9 +9,9 @@ sudo -v
 # IMPORTANT: Make sure you update the `DST` variable to match the name of the
 # destination backup drive
 
-DST="/Volumes/Backup/rsync/imac"
+DST="/Volumes/rsync/imac"
 SRC="/"
-EXCLUDE="$HOME/repo/dotfiles/bin/.backupignore_imac"
+EXCLUDE="$HOME/repo/github/dotfiles/bin/.backupignore_imac"
 
 PROG=$0
 
