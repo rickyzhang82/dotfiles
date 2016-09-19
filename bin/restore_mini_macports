@@ -9,8 +9,11 @@ sudo -v
 # IMPORTANT: Make sure you update the `DST` variable to match the name of the
 # destination backup drive
 
-DST="/opt"
-SRC="/Volumes/rsync/imac/opt/local"
+#DST="/opt"
+#SRC="/Volumes/rsync/imac/opt/local"
+
+DST="/Applications/"
+SRC="/Volumes/rsync/imac/Applications/MacPorts"
 
 PROG=$0
 
