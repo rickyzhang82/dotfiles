@@ -9,7 +9,7 @@ sudo -v
 # IMPORTANT: Make sure you update the `DST` variable to match the name of the
 # destination backup drive
 
-DST="/Volumes/rsync/imac"
+DST="/Volumes/rsync_imac"
 SRC="/"
 EXCLUDE="$HOME/repo/github/dotfiles/bin/.backupignore_imac"
 
@@ -56,6 +56,6 @@ logger -t $PROG "End rsync"
 sudo bless -folder "$DST"/System/Library/CoreServices
 
 # Update the backup's cache
-# sudo update_dyld_shared_cache -force -root "$DST"
+#sudo update_dyld_shared_cache -force -root "$DST"
 
 exit 0

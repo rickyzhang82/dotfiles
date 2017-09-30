@@ -9,7 +9,7 @@ sudo -v
 # IMPORTANT: Make sure you update the `DST` variable to match the name of the
 # destination backup drive
 
-DST="/Volumes/rsync/mba"
+DST="/Volumes/rsync_mba"
 SRC="/"
 EXCLUDE="$HOME/repo/github/dotfiles/bin/.backupignore_mba"
 
